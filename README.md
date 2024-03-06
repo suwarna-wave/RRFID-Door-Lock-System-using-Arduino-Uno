@@ -1,8 +1,8 @@
 # RRFID-Door-Lock-System-using-Arduino-Uno
 Pins: 
 - **Arduino Uno Connections:**
-    
     - Connect the Arduino Uno to your computer using a USB cable for programming and power.
+
 - **MFRC522 RFID Module Connections:**
     
     - **SDA (SS) pin (Serial Data Pin):** Connect to digital pin 10 (SS) on the Arduino Uno.
@@ -19,6 +19,7 @@ Pins:
     - VCC -> 5V (from Arduino)
     - GND -> GND (common with Arduino)
     - IN -> Digital Pin 8
+
 - **Solenoid Lock and 12V Power Supply:**
     
     - Connect one end of the solenoid to the Common (COM) pin of the relay.
@@ -34,4 +35,5 @@ Pins:
     
     - It's crucial to connect the ground (GND) of the Arduino, 12V power supply, and relay together. This ensures a common ground reference for all components.
 ```
+
 
